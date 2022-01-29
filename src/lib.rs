@@ -1,6 +1,7 @@
 #![no_std]
 #![feature(naked_functions)]
 #![feature(asm)]
+#![feature(unsafe_block_in_unsafe_fn)]
 
 #[macro_use]
 extern crate log;
