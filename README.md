@@ -27,7 +27,7 @@ pub enum ProbeType{
 ### ToDo List
 
 - [ ] divide `Func` type into `basic_func` and `async_fun`
-- [ ] can get the parameter during parameter passing
+- [ ] can get the parameters during parameter passing
 
 
 
