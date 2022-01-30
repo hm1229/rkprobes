@@ -43,7 +43,7 @@ pub fn kprobes_trap_handler(cx: &mut TrapFrame);
   }
   ```
 
-- to register a `kprobe` you need pass the address of the function or instruction ,the `handler` and `post_handler`(option) you prepared, the type of the probe way(function or instruction)
+- to register a `kprobe`, you need pass the address of the function or instruction ,the `handler` and `post_handler`(option) you prepared, the type of the probe way(function or instruction)
 
   ```rust
   pub enum ProbeType{
@@ -63,7 +63,7 @@ pub fn kprobes_trap_handler(cx: &mut TrapFrame);
   )
   ```
   
-- to unregister a `kprobe` you just need to pass the address
+- to unregister a `kprobe`, you just need to pass the address of the probed point
 
   ```rust
   rkprobes::kprobe_unregister(self.addr)
